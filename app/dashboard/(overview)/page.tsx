@@ -11,6 +11,7 @@ import { RevenueChartSkeleton,
  } from '@/app/ui/skeletons';
 
 export default async function Page() {
+  // Not sure to keep or delete
   const {
     numberOfInvoices,
     numberOfCustomers,

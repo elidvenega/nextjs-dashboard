@@ -130,8 +130,8 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
             ))}
         </div>
         <div id="customer-error" aria-live="polite" aria-atomic="true">
-          {state.errors?.status &&
-            state.errors.status.map((error: string) => (
+          {state.errors?.message &&
+            state.errors.message.map((error: string) => (
               <p className="mt-2 text-sm text-red-500" key={error}>
                 {error}
               </p>
